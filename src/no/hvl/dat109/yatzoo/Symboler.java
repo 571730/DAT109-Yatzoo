@@ -7,7 +7,7 @@ public class Symboler {
         HVAL,
         SLANGE,
         PANDA,
-        GRIS;
+        GRIS
     }
 
     public static EnumSymboler tallTilSymbol(int tall){

@@ -19,4 +19,8 @@ public class Spiller {
         poeng = new Poeng(this);
     }
 
+    public void giPoengTilSpiller(int poeng, int runde){
+        this.poeng.leggTilPoeng(runde, poeng);
+    }
+
 }
