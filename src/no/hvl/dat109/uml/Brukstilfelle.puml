@@ -1,0 +1,10 @@
+@startuml
+:Spiller(Observatør): as Admin
+(Spill Yatzoo) as (Use)
+
+Admin ---> (Use)
+Spiller2 --> (Use)
+Spiller3 --> (Use)
+note right of Admin : Observatør setter opp spill med flere spillere
+
+@enduml

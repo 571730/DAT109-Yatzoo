@@ -1,0 +1,22 @@
+@startuml
+
+class Terning{
+symbol
+}
+class Spiller{
+navn
+}
+class Brett
+class Spill {
+runde
+}
+
+
+Spill "1" -- "5" Terning
+Spill -- Spiller : "1" "1..5"
+Spill -- Brett : "1" "1"
+
+
+
+
+@enduml
