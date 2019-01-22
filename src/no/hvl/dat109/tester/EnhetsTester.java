@@ -1,10 +1,7 @@
 package no.hvl.dat109.tester;
 
 
-import no.hvl.dat109.yatzoo.GiPoeng;
-import no.hvl.dat109.yatzoo.Kopp;
-import no.hvl.dat109.yatzoo.Symboler;
-import no.hvl.dat109.yatzoo.Terning;
+import no.hvl.dat109.yatzoo.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,11 +10,22 @@ import static org.junit.Assert.assertTrue;
 
 public class EnhetsTester {
     private Kopp kopp;
+    private Blokk blokk;
+    private Spiller spiller;
 
     @Before
     public final void setup(){
         kopp = new Kopp();
+        blokk = new Blokk();
+        spiller = new Spiller("Bob");
     }
+
+//    @Test
+//    public void testManuellSparing(){
+//        System.out.println("Velg minst 1 terning for testen!");
+//        blokk.finnSpill(spiller, 7, kopp);
+//        assertTrue(kopp.getSpareTerninger().size() >= 1);
+//    }
 
     @Test
     public void testPoengLike(){

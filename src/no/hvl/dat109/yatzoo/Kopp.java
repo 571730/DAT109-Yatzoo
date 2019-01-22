@@ -20,6 +20,26 @@ public class Kopp {
         }
     }
 
+    public void visAlleTerninger(){
+        int index = 1;
+        for (Terning t : terninger){
+            System.out.println("Terning " + index + " har symbolet " + t.getSymbol());
+            index++;
+        }
+        System.out.println();
+    }
+
+    public void sparManuel(String s){
+        if (!s.equals("n")){
+            String[] splittet = s.split(" ");
+            for (String string : splittet){
+                int index = Integer.parseInt(string);
+                spareTerninger.add(terninger.get(index - 1));
+                terninger.remove(index - 1);
+            }
+        }
+    }
+
     public void sparTerning(Symboler.EnumSymboler symbol){
         for (Terning t : terninger){
             if (t.getSymbol() == symbol){
