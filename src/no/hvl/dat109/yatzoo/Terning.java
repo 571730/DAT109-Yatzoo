@@ -30,4 +30,8 @@ public class Terning {
     public Symboler.EnumSymboler getSymbol() {
         return symbol;
     }
+
+    public void setSymbol(Symboler.EnumSymboler symbol) {
+        this.symbol = symbol;
+    }
 }

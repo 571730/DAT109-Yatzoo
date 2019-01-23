@@ -6,11 +6,32 @@ import java.util.Map;
 public class GiPoeng {
     public static int giPoeng(int runde, Kopp kopp){
         int poeng = 0;
+        HashMap<Symboler.EnumSymboler, Integer> map = finnHashMap(kopp);
         if (runde <= 6){
             poeng = finnLike(kopp);
         } else if(runde == 7){
-            if (treLike(kopp)){
+            if (treLikeFireLike(kopp, runde, map)){
                 poeng = 3;
+            }
+        } else if( runde == 8){
+            if (treLikeFireLike(kopp, runde, map)){
+                poeng = 4;
+            }
+        } else if (runde == 9){
+            if (toPar(kopp, map)){
+                poeng = 4;
+            }
+        } else if (runde == 10){
+            if (hus(kopp, map)){
+                poeng = 5;
+            }
+        } else if(runde == 11){
+            if (femUlike(kopp, map)){
+                poeng = 5;
+            }
+        } else {
+            if (yatzoo(kopp, map)){
+                poeng = 10;
             }
         }
         return poeng;
@@ -20,16 +41,7 @@ public class GiPoeng {
         return kopp.getSpareTerninger().size();
     }
 
-    private static boolean treLike(Kopp kopp){
-        HashMap<Symboler.EnumSymboler, Integer> map = new HashMap<>();
-        for (Terning t : kopp.getSpareTerninger()){
-            if (!map.containsKey(t.getSymbol())){
-                map.put(t.getSymbol(), 1);
-            } else {
-                int verdi = map.get(t.getSymbol());
-                map.put(t.getSymbol(), verdi + 1);
-            }
-        }
+    private static boolean treLikeFireLike(Kopp kopp, int runde, HashMap<Symboler.EnumSymboler, Integer> map){
         Map.Entry<Symboler.EnumSymboler, Integer> maxEntry = null;
 
         for (Map.Entry<Symboler.EnumSymboler, Integer> entry : map.entrySet())
@@ -39,6 +51,58 @@ public class GiPoeng {
                 maxEntry = entry;
             }
         }
-        return maxEntry.getValue() >= 3;
+        return (runde == 7) ? maxEntry.getValue() >= 3 : maxEntry.getValue() >=4;
+    }
+
+    private static boolean toPar(Kopp kopp, HashMap<Symboler.EnumSymboler, Integer> map){
+        //Teller antall par av terninger
+        int teller = 0;
+        for (Map.Entry<Symboler.EnumSymboler, Integer> entry : map.entrySet())
+        {
+            if (entry.getValue() >= 2 )
+                teller++;
+        }
+        return teller >= 2;
+    }
+
+    private static boolean hus(Kopp kopp, HashMap<Symboler.EnumSymboler, Integer> map){
+        boolean fantTreLike = false;
+        boolean fantToLike = false;
+
+        for (Map.Entry<Symboler.EnumSymboler, Integer> entry : map.entrySet())
+        {
+            if (entry.getValue() == 2 )
+                fantToLike = true;
+            else if(entry.getValue() == 3)
+                fantTreLike = true;
+        }
+        return fantTreLike && fantToLike;
+    }
+
+    private static boolean femUlike(Kopp kopp, HashMap<Symboler.EnumSymboler, Integer> map){
+        for (Map.Entry<Symboler.EnumSymboler, Integer> entry : map.entrySet())
+        {
+            if (entry.getValue() >= 2){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static boolean yatzoo(Kopp kopp, HashMap<Symboler.EnumSymboler, Integer> map){
+        return map.containsValue(5);
+    }
+
+    private static HashMap<Symboler.EnumSymboler, Integer> finnHashMap(Kopp kopp){
+        HashMap<Symboler.EnumSymboler, Integer> map = new HashMap<>();
+        for (Terning t : kopp.getSpareTerninger()){
+            if (!map.containsKey(t.getSymbol())){
+                map.put(t.getSymbol(), 1);
+            } else {
+                int verdi = map.get(t.getSymbol());
+                map.put(t.getSymbol(), verdi + 1);
+            }
+        }
+        return map;
     }
 }

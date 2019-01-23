@@ -1,6 +1,5 @@
 package no.hvl.dat109.yatzoo;
 
-import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.util.Scanner;
 
 public class Blokk {
