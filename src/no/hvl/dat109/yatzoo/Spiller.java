@@ -5,7 +5,6 @@ package no.hvl.dat109.yatzoo;
  */
 public class Spiller {
     private String navn;
-    private int posisjon;
     private Poeng poeng;
 
     /**
@@ -15,8 +14,16 @@ public class Spiller {
      */
     public Spiller(String navn) {
         this.navn = navn;
-        posisjon = 1;
         poeng = new Poeng(this);
+    }
+
+    public int hentPoeng(){
+        return poeng.summerPoeng();
+    }
+
+    @Override
+    public String toString(){
+        return navn;
     }
 
     public void giPoengTilSpiller(int poeng, int runde){

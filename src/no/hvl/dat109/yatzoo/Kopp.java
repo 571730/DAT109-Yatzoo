@@ -18,24 +18,40 @@ public class Kopp {
         for(Terning t : terninger){
             t.trill();
         }
+        visTerninger("s");
+        visTerninger("n");
     }
 
-    public void visAlleTerninger(){
+
+    private void visTerninger(String s){
+        ArrayList<Terning> arr;
+        if (s.equals("s")){
+            arr = spareTerninger;
+            s = "Dine sparte terninger";
+        } else {
+            arr = terninger;
+            s = "Du trillet";
+        }
+        System.out.println("--- Dine " + s + " ---");
         int index = 1;
-        for (Terning t : terninger){
-            System.out.println("Terning " + index + " har symbolet " + t.getSymbol());
+        for (Terning t : arr){
+            System.out.print(index + ": " + t.getSymbol() + "  ");
             index++;
         }
         System.out.println();
     }
 
     public void sparManuel(String s){
-        if (!s.equals("n")){
+        if (s != null && !s.isEmpty()){
             String[] splittet = s.split(" ");
+            ArrayList<Terning> skalSpares = new ArrayList<>();
             for (String string : splittet){
                 int index = Integer.parseInt(string);
-                spareTerninger.add(terninger.get(index - 1));
-                terninger.remove(index - 1);
+                skalSpares.add(terninger.get(index - 1));
+            }
+            for (Terning t : skalSpares){
+                spareTerninger.add(t);
+                terninger.remove(t);
             }
         }
     }
