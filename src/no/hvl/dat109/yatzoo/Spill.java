@@ -26,11 +26,11 @@ public class Spill {
         for (int i = 0; i < 12; i++){
             for (Spiller spiller : spillere){
                 skrivUtRundeNavn(i + 1);
-                System.out.println(spiller.toString() + " har for øyeblikket " + spiller.hentPoeng() + " poeng!");
+                System.out.println(spiller.toString() + " har for øyeblikket " + spiller.hentPoeng() + " poeng!\n");
                 spillRundeSpiller(spiller, (i + 1), kopp);
             }
         }
-        System.out.println("Spillet er over");
+        System.out.println("\nSpillet er over\n");
         finnVinner();
     }
 
@@ -47,6 +47,10 @@ public class Spill {
             System.out.println("Det ble uavgjort mellom " + vinner.toString() + " og " + andreVinner.toString());
         } else {
             System.out.println("Vinneren er " + vinner.toString() + " med " + vinner.hentPoeng() + " poeng!");
+        }
+        System.out.println("\nScoreboard:");
+        for (Spiller spiller : spillere){
+            System.out.println(spiller + " - " + spiller.hentPoeng() + " poeng");
         }
     }
 
