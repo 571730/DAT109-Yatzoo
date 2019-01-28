@@ -26,7 +26,7 @@ public class Blokk {
     private void manuelleValg(Kopp kopp){
         kopp.trillAlleTerninger();
         System.out.println("Skriv inn nummer på terningene som skal spares: (f.eks: 2 4 5)");
-        System.out.println("Du kan også bytte terninger med de sparte slik: 1-2 2-1");
+        System.out.println("Du kan fjerne sparte terninger ved å skrive en \"s\" før tallet (f.eks 2 s1 1)");
         String spares = sc.nextLine();
         kopp.sparManuel(spares);
     }

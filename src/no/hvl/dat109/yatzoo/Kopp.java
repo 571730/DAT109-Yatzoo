@@ -32,26 +32,36 @@ public class Kopp {
             arr = terninger;
             s = "Du trillet";
         }
-        System.out.println("--- Dine " + s + " ---");
+        System.out.println("--- " + s + " ---");
         int index = 1;
         for (Terning t : arr){
             System.out.print(index + ": " + t.getSymbol() + "  ");
             index++;
         }
-        System.out.println();
+        System.out.println("\n");
     }
 
     public void sparManuel(String s){
         if (s != null && !s.isEmpty()){
             String[] splittet = s.split(" ");
             ArrayList<Terning> skalSpares = new ArrayList<>();
+            ArrayList<Terning> leggesTilbake = new ArrayList<>();
             for (String string : splittet){
-                int index = Integer.parseInt(string);
-                skalSpares.add(terninger.get(index - 1));
+                if (string.contains("s")){
+                    int index = Integer.parseInt(string.substring(1, 2));
+                    leggesTilbake.add(spareTerninger.get(index - 1));
+                } else {
+                    int index = Integer.parseInt(string);
+                    skalSpares.add(terninger.get(index - 1));
+                }
             }
             for (Terning t : skalSpares){
                 spareTerninger.add(t);
                 terninger.remove(t);
+            }
+            for (Terning t : leggesTilbake){
+                terninger.add(t);
+                spareTerninger.remove(t);
             }
         }
     }
