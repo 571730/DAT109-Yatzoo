@@ -60,9 +60,9 @@ public class Blokk {
                 // Hopper ut av loopen når input er godtatt
                 suksess = true;
             } catch (NumberFormatException e){
-                System.out.println("Du skrev noe feil, prøv igjen");
+                System.out.println("!!!--- Du skrev noe feil, prøv igjen ---!!!");
             } catch (NullPointerException e){
-                System.out.println("Du skrev noe feil, prøv igjen");
+                System.out.println("!!!--- Du fikk nullpointerexception, prøv igjen ---!!!");
             }
         }
     }
