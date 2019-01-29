@@ -37,6 +37,11 @@ public class EnhetsTester {
     }
 
     @Test
+    public void testTreLike(){
+
+    }
+
+    @Test
     public void testKopp(){
         kopp.trillAlleTerninger();
         assertTrue(kopp.getTerninger().size() == 5);
