@@ -58,7 +58,7 @@ public class Kopp {
      *
      * @param s strengen som sier noe om hvilke terninger som skal spares
      */
-    public void sparManuel(String s){
+    public void sparManuel(String s) throws NumberFormatException, NullPointerException{
         if (s != null && !s.isEmpty()){
             String[] splittet = s.split(" ");
             ArrayList<Terning> skalSpares = new ArrayList<>();

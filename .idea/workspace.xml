@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5f0c5c11-fb9d-4f1c-ae3b-5694ea3a3bac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Spill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Spill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Spiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Spiller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Symboler$EnumSymboler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Symboler$EnumSymboler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Symboler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Symboler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Terning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/yatzoo/Terning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/tester/EnhetsTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YatzeeWEB/no/hvl/dat109/tester/EnhetsTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +20,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1516">
+              <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -33,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -45,7 +59,16 @@
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="68" column="69" lean-forward="true" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -74,15 +97,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spiller.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Poeng.java" />
-        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java" />
-        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Constants.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java" />
       </list>
     </option>
   </component>
@@ -167,7 +190,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548757364684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548757998600" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -290,7 +313,7 @@
       <workItem from="1548177918002" duration="303000" />
       <workItem from="1548178293458" duration="7401000" />
       <workItem from="1548493005177" duration="3565000" />
-      <workItem from="1548753177766" duration="3392000" />
+      <workItem from="1548753177766" duration="4074000" />
     </task>
     <task id="LOCAL-00001" summary="Laget noen nye tester, fikset en del klasser">
       <created>1548183150025</created>
@@ -313,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548756773356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dynamisk antall spillere">
+      <created>1548757453888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548757453888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -349,7 +379,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35499000" />
+    <option name="totallyTimeSpent" value="36181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="1920" height="1044" extended-state="0" />
@@ -399,7 +429,8 @@
     <MESSAGE value="Laget noen nye tester, fikset en del klasser" />
     <MESSAGE value="La til main og litt snacks, mangler fremdeles å kunne bytte ut med sparte terninger" />
     <MESSAGE value="JavaDoc på alle metoder og klasser" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc på alle metoder og klasser" />
+    <MESSAGE value="Dynamisk antall spillere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamisk antall spillere" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,17 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,20 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -514,14 +520,35 @@
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1516">
+          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="68" column="69" lean-forward="true" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -49,10 +49,21 @@ public class Blokk {
      * @param kopp koppen
      */
     private void manuelleValg(Kopp kopp){
+        boolean suksess = false;
         kopp.trillAlleTerninger();
-        System.out.println("Skriv inn nummer på terningene som skal spares: (f.eks: 2 4 5)");
-        System.out.println("Du kan fjerne sparte terninger ved å skrive en \"s\" før tallet (f.eks 2 s1 1)");
-        String spares = sc.nextLine();
-        kopp.sparManuel(spares);
+        while (!suksess){
+            try{
+                System.out.println("Skriv inn nummer på terningene som skal spares: (f.eks: 2 4 5)");
+                System.out.println("Du kan fjerne sparte terninger ved å skrive en \"s\" før tallet (f.eks 2 s1 1)");
+                String spares = sc.nextLine();
+                kopp.sparManuel(spares);
+                // Hopper ut av loopen når input er godtatt
+                suksess = true;
+            } catch (NumberFormatException e){
+                System.out.println("Du skrev noe feil, prøv igjen");
+            } catch (NullPointerException e){
+                System.out.println("Du skrev noe feil, prøv igjen");
+            }
+        }
     }
 }
