@@ -1,5 +1,9 @@
 package no.hvl.dat109.yatzoo;
 
+/**
+ * Lager spillet med noen spillere
+ * Koppen og blokken lages også, dermed startes spillet
+ */
 public class Main {
     public static void main(String[] args) {
         Spiller mikkel = new Spiller("Mikkel");

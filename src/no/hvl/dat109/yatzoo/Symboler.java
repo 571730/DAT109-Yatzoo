@@ -1,5 +1,8 @@
 package no.hvl.dat109.yatzoo;
 
+/**
+ * Enum som holder styr på mulige symboler en kan få
+ */
 public class Symboler {
     public enum EnumSymboler{
         LØVE,
@@ -10,6 +13,11 @@ public class Symboler {
         GRIS
     }
 
+    /**
+     * Gjør om fra tall til en symbol
+     * @param tall tilfeldig valgt tall 1-6
+     * @return symbolet vi skal bruke
+     */
     public static EnumSymboler tallTilSymbol(int tall){
         if (tall == 1){
             return EnumSymboler.LØVE;

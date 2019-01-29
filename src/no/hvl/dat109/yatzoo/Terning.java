@@ -2,14 +2,26 @@ package no.hvl.dat109.yatzoo;
 
 import java.util.Random;
 
+/**
+ * The type Terning.
+ * Denne holder kontrol over hvilket symbol en terning har
+ * og lar terningen trilles
+ */
 public class Terning {
     private Random rdn;
     private Symboler.EnumSymboler symbol;
 
+    /**
+     * Instantiates a new Terning.
+     */
     public Terning() {
         this.rdn = new Random();
     }
 
+    /**
+     * Trill.
+     * setter klasseverdien symbol til å være like et tilfeldig valgt symbol
+     */
     public void trill(){
         int terningVerdi = rdn.nextInt(6) + 1;
         if (terningVerdi == 1){
@@ -27,10 +39,20 @@ public class Terning {
         }
     }
 
+    /**
+     * Gets symbol.
+     *
+     * @return the symbol
+     */
     public Symboler.EnumSymboler getSymbol() {
         return symbol;
     }
 
+    /**
+     * Sets symbol.
+     *
+     * @param symbol the symbol
+     */
     public void setSymbol(Symboler.EnumSymboler symbol) {
         this.symbol = symbol;
     }

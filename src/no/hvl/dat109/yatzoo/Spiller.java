@@ -17,6 +17,11 @@ public class Spiller {
         poeng = new Poeng(this);
     }
 
+    /**
+     * Henter ut spillerens totale poengsum
+     *
+     * @return int antall poeng totalt
+     */
     public int hentPoeng(){
         return poeng.summerPoeng();
     }
@@ -26,6 +31,13 @@ public class Spiller {
         return navn;
     }
 
+    /**
+     * Gi poeng til spiller.
+     * Lar deg gi poeng til en spiller for en gitt runde
+     *
+     * @param poeng antall poeng som skal gis
+     * @param runde runden poengene skal gjelde for
+     */
     public void giPoengTilSpiller(int poeng, int runde){
         this.poeng.leggTilPoeng(runde, poeng);
     }

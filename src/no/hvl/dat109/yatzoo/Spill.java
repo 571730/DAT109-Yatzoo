@@ -1,16 +1,33 @@
 package no.hvl.dat109.yatzoo;
 
+/**
+ * The type Spill.
+ * Denne klassen har kontroll over alt
+ */
 public class Spill {
     private Spiller[] spillere;
     private Blokk blokk;
     private Kopp kopp;
 
+    /**
+     * Instantiates a new Spill.
+     *
+     * @param spillere the spillere
+     * @param blokk    the blokk
+     * @param kopp     the kopp
+     */
     public Spill(Spiller[] spillere, Blokk blokk, Kopp kopp) {
         this.spillere = spillere;
         this.blokk = blokk;
         this.kopp = kopp;
     }
 
+    /**
+     * spiller en runde for en spiller
+     * @param spiller spilleren som skal spille
+     * @param runde hvilken runde vi er på
+     * @param kopp koppen med terninger
+     */
     public void spillRundeSpiller(Spiller spiller, int runde, Kopp kopp){
         for (int i = 0; i < 3 && !kopp.ferdig(); i++){
             blokk.finnSpill(spiller, runde, kopp);
@@ -21,6 +38,9 @@ public class Spill {
         kopp.resetKopp();
     }
 
+    /**
+     * Spiller seg gjennom hele spillet
+     */
     public void spill(){
         System.out.println("Spillet starter!");
         for (int i = 0; i < 12; i++){
@@ -34,6 +54,9 @@ public class Spill {
         finnVinner();
     }
 
+    /**
+     * Finner ut hvem som vannt, og eventuelt om det ble uavgjort
+     */
     public void finnVinner(){
         Spiller vinner = spillere[0];
         Spiller andreVinner = spillere[1];
@@ -54,6 +77,10 @@ public class Spill {
         }
     }
 
+    /**
+     * Brukes til å skrive ut navnet på runden vi spiller i konsollen
+     * @param runde int som sier hvilken runde vi er på
+     */
     private void skrivUtRundeNavn(int runde){
         String rundeNavn = "Finn symboler";
         switch (runde){

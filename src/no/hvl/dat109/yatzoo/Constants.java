@@ -1,5 +1,8 @@
 package no.hvl.dat109.yatzoo;
 
+/**
+ * Konstanter brukt til navn på runder
+ */
 public class Constants {
     public static final String TRELIKE = "Tre like";
     public static final String FIRELIKE = "Fire like";
