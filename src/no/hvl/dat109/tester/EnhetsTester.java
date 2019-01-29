@@ -5,6 +5,8 @@ import no.hvl.dat109.yatzoo.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -12,6 +14,7 @@ public class EnhetsTester {
     private Kopp kopp;
     private Blokk blokk;
     private Spiller spiller;
+
 
     @Before
     public final void setup(){
@@ -38,6 +41,8 @@ public class EnhetsTester {
 
     @Test
     public void testTreLike(){
+        ArrayList<Terning> terninger = kopp.getTerninger();
+        ArrayList<Terning> spar = new ArrayList<>();
 
     }
 

@@ -137,4 +137,8 @@ public class Kopp {
     public ArrayList<Terning> getTerninger() {
         return terninger;
     }
+
+    public void setSpareTerninger(ArrayList<Terning> spareTerninger) {
+        this.spareTerninger = spareTerninger;
+    }
 }
