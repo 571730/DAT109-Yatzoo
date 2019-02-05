@@ -29,12 +29,6 @@ public class EnhetsTester {
         spiller = new Spiller("Bob");
     }
 
-//    @Test
-//    public void testManuellSparing(){
-//        System.out.println("Velg minst 1 terning for testen!");
-//        blokk.finnSpill(spiller, 7, kopp);
-//        assertTrue(kopp.getSpareTerninger().size() >= 1);
-//    }
 
     /**
      * Tester om en får riktig antall poeng for 1 lik, 2 like, 3 like osv.
