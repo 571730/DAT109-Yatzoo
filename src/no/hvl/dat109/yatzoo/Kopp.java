@@ -10,10 +10,16 @@ public class Kopp {
     private ArrayList<Terning> terninger;
     private ArrayList<Terning> spareTerninger;
 
+    /**
+     * Instantiates a new Kopp.
+     */
     public Kopp() {
         resetKopp();
     }
 
+    /**
+     * Trill alle terninger.
+     */
     public void trillAlleTerninger(){
         for(Terning t : terninger){
             t.trill();
@@ -22,6 +28,11 @@ public class Kopp {
         visTerninger("n");
     }
 
+    /**
+     * Viser alle terninger du har trillet og de du har spart
+     * alt ettersom og metoden blir gitt strengen s, eller ikke
+     * @param s strenges skal være s eller ikke
+     */
 
     private void visTerninger(String s){
         ArrayList<Terning> arr;
@@ -41,7 +52,13 @@ public class Kopp {
         System.out.println("\n");
     }
 
-    public void sparManuel(String s){
+    /**
+     * Spar manuel.
+     * lar brukeren manuelt velge hvilken terninger som skal spares
+     *
+     * @param s strengen som sier noe om hvilke terninger som skal spares
+     */
+    public void sparManuel(String s) throws NumberFormatException, NullPointerException{
         if (s != null && !s.isEmpty()){
             String[] splittet = s.split(" ");
             ArrayList<Terning> skalSpares = new ArrayList<>();
@@ -66,6 +83,12 @@ public class Kopp {
         }
     }
 
+    /**
+     * Spar terning.
+     * Denne sparer automatisk terninger med gitte symbol
+     *
+     * @param symbol the symbol
+     */
     public void sparTerning(Symboler.EnumSymboler symbol){
         for (Terning t : terninger){
             if (t.getSymbol() == symbol){
@@ -76,10 +99,19 @@ public class Kopp {
         terninger.removeIf(t -> t.getSymbol() == symbol);
     }
 
+    /**
+     * Ferdig boolean.
+     * sjekker som alle terninger er spart
+     *
+     * @return the boolean
+     */
     public boolean ferdig(){
         return terninger.size() == 0;
     }
 
+    /**
+     * Reset kopp.
+     */
     public void resetKopp(){
         terninger = new ArrayList<>();
         for (int i = 0; i < 5; i++){
@@ -88,11 +120,25 @@ public class Kopp {
         spareTerninger = new ArrayList<>();
     }
 
+    /**
+     * Gets spare terninger.
+     *
+     * @return the spare terninger
+     */
     public ArrayList<Terning> getSpareTerninger() {
         return spareTerninger;
     }
 
+    /**
+     * Gets terninger.
+     *
+     * @return the terninger
+     */
     public ArrayList<Terning> getTerninger() {
         return terninger;
+    }
+
+    public void setSpareTerninger(ArrayList<Terning> spareTerninger) {
+        this.spareTerninger = spareTerninger;
     }
 }
