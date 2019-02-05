@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" line="73" />
+    <bookmark url="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" line="186" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0c5c11-fb9d-4f1c-ae3b-5694ea3a3bac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1516">
+            <state relative-caret-position="2106">
               <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
             </state>
           </provider>
@@ -39,17 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="1612">
               <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+            <state relative-caret-position="242">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -57,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="554">
+              <caret line="172" column="30" lean-forward="true" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3544">
-              <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
+            <state relative-caret-position="234">
+              <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+            <state relative-caret-position="494">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -87,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="624">
               <caret line="140" column="70" selection-start-line="140" selection-start-column="70" selection-end-line="140" selection-end-column="70" />
               <folding>
                 <element signature="e#3849#3850#0" expanded="true" />
@@ -120,14 +121,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spiller.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Poeng.java" />
-        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java" />
-        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Constants.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java" />
       </list>
     </option>
@@ -143,7 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +204,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +214,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548758200644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549359907242" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.EnhetsTester">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat109.yatzoo.Main" />
       <module name="YatzeeWEB" />
@@ -259,7 +260,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetsTester.testManuellSparing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetsTester.testFireLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YatzeeWEB" />
       <extension name="coverage">
         <pattern>
@@ -269,13 +270,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.hvl.dat109.tester" />
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat109.tester.EnhetsTester" />
-      <option name="METHOD_NAME" value="testManuellSparing" />
+      <option name="METHOD_NAME" value="testFireLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetsTester.testPoengLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetsTester.testToPar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YatzeeWEB" />
       <extension name="coverage">
         <pattern>
@@ -285,7 +286,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.hvl.dat109.tester" />
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat109.tester.EnhetsTester" />
-      <option name="METHOD_NAME" value="testPoengLike" />
+      <option name="METHOD_NAME" value="testToPar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetsTester.testTreLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YatzeeWEB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat109.tester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat109.tester" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat109.tester.EnhetsTester" />
+      <option name="METHOD_NAME" value="testTreLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,10 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.EnhetsTester.testManuellSparing" />
         <item itemvalue="JUnit.EnhetsTester" />
-        <item itemvalue="JUnit.EnhetsTester.testPoengLike" />
+        <item itemvalue="JUnit.EnhetsTester.testToPar" />
+        <item itemvalue="JUnit.EnhetsTester.testFireLike" />
+        <item itemvalue="JUnit.EnhetsTester.testTreLike" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +354,8 @@
       <workItem from="1548177918002" duration="303000" />
       <workItem from="1548178293458" duration="7401000" />
       <workItem from="1548493005177" duration="3565000" />
-      <workItem from="1548753177766" duration="4794000" />
+      <workItem from="1548753177766" duration="6152000" />
+      <workItem from="1549357694578" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="Laget noen nye tester, fikset en del klasser">
       <created>1548183150025</created>
@@ -380,31 +399,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548758200680</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gjør klar for flere tester">
+      <created>1548758731663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548758731663</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnhetsTester_testPoengLike - 2019.01.22 at 19h 43m 29s.xml">
-      <configuration name="EnhetsTester.testPoengLike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester_testPoengLike - 2019.01.22 at 19h 44m 11s.xml">
-      <configuration name="EnhetsTester.testPoengLike" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester - 2019.01.22 at 19h 44m 48s.xml">
-      <configuration name="EnhetsTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester - 2019.01.22 at 19h 45m 05s.xml">
-      <configuration name="EnhetsTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester - 2019.01.22 at 19h 46m 45s.xml">
-      <configuration name="EnhetsTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester - 2019.01.22 at 19h 48m 39s.xml">
-      <configuration name="EnhetsTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnhetsTester - 2019.01.22 at 19h 49m 52s.xml">
-      <configuration name="EnhetsTester" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnhetsTester - 2019.01.22 at 19h 51m 02s.xml">
       <configuration name="EnhetsTester" configurationId="JUnit" />
     </history-entry>
@@ -414,15 +419,36 @@
     <history-entry file="EnhetsTester_testManuellSparing - 2019.01.22 at 20h 19m 18s.xml">
       <configuration name="EnhetsTester.testManuellSparing" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EnhetsTester_testTreLike - 2019.02.05 at 10h 18m 49s.xml">
+      <configuration name="EnhetsTester.testTreLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester_testTreLike - 2019.02.05 at 10h 21m 45s.xml">
+      <configuration name="EnhetsTester.testTreLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester_testTreLike - 2019.02.05 at 10h 26m 25s.xml">
+      <configuration name="EnhetsTester.testTreLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester_testFireLike - 2019.02.05 at 10h 26m 31s.xml">
+      <configuration name="EnhetsTester.testFireLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester_testToPar - 2019.02.05 at 10h 32m 28s.xml">
+      <configuration name="EnhetsTester.testToPar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester - 2019.02.05 at 10h 40m 17s.xml">
+      <configuration name="EnhetsTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnhetsTester - 2019.02.05 at 10h 42m 34s.xml">
+      <configuration name="EnhetsTester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36901000" />
+    <option name="totallyTimeSpent" value="40472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="1920" height="1044" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1965812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19871795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -432,7 +458,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.61810154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3807947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42964825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +495,8 @@
     <MESSAGE value="Dynamisk antall spillere" />
     <MESSAGE value="Kan nå skrive feil format uten at spillet krasjer" />
     <MESSAGE value="liten fiks på print til exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="liten fiks på print til exceptions" />
+    <MESSAGE value="gjør klar for flere tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="gjør klar for flere tester" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,10 +543,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="286">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -530,10 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="1612">
+          <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -544,23 +578,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Spill.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Symboler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1516">
-          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Blokk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
+        <state relative-caret-position="242">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Kopp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
+        <state relative-caret-position="624">
           <caret line="140" column="70" selection-start-line="140" selection-start-column="70" selection-end-line="140" selection-end-column="70" />
           <folding>
             <element signature="e#3849#3850#0" expanded="true" />
@@ -568,27 +595,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/GiPoeng.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3544">
-          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
+        <state relative-caret-position="234">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/yatzoo/Terning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat109/tester/EnhetsTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="554">
+          <caret line="172" column="30" lean-forward="true" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
         </state>
       </provider>
     </entry>

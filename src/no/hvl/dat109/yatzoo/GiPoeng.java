@@ -124,6 +124,8 @@ public class GiPoeng {
      * @return om du fikk 5 ulike eller ikke
      */
     private static boolean femUlike(Kopp kopp, HashMap<Symboler.EnumSymboler, Integer> map){
+        if (kopp.getSpareTerninger().size() < 5)
+            return false;
         for (Map.Entry<Symboler.EnumSymboler, Integer> entry : map.entrySet())
         {
             if (entry.getValue() >= 2){

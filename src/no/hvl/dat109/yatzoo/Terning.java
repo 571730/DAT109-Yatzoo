@@ -19,6 +19,15 @@ public class Terning {
     }
 
     /**
+     * Constructor used for the testing
+     * @param symbol to be put on the die
+     */
+    public Terning(Symboler.EnumSymboler symbol){
+        rdn = new Random();
+        this.symbol = symbol;
+    }
+
+    /**
      * Trill.
      * setter klasseverdien symbol til å være like et tilfeldig valgt symbol
      */
