@@ -34,7 +34,7 @@ public class Terning {
     public void trill(){
         int terningVerdi = rdn.nextInt(6) + 1;
         if (terningVerdi == 1){
-            this.symbol = Symboler.EnumSymboler.LØVE;
+            this.symbol = Symboler.EnumSymboler.LOEVE;
         } else if(terningVerdi == 2){
             this.symbol = Symboler.EnumSymboler.SLANGE;
         } else  if (terningVerdi == 3){

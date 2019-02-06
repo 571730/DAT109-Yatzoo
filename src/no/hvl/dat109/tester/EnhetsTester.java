@@ -49,7 +49,7 @@ public class EnhetsTester {
     public void testTreLike(){
         ArrayList<Terning> spar = new ArrayList<>();
         for (int i = 0; i < 3; i++){
-            spar.add(new Terning(Symboler.EnumSymboler.LØVE));
+            spar.add(new Terning(Symboler.EnumSymboler.LOEVE));
         }
         kopp.setSpareTerninger(spar);
         assertEquals(3, GiPoeng.giPoeng(7, kopp));
@@ -65,7 +65,7 @@ public class EnhetsTester {
     public void testFireLike(){
         ArrayList<Terning> spar = new ArrayList<>();
         for (int i = 0; i < 4; i++){
-            spar.add(new Terning(Symboler.EnumSymboler.LØVE));
+            spar.add(new Terning(Symboler.EnumSymboler.LOEVE));
         }
         kopp.setSpareTerninger(spar);
         assertEquals(4, GiPoeng.giPoeng(8, kopp));
@@ -81,7 +81,7 @@ public class EnhetsTester {
     public void testToPar(){
         ArrayList<Terning> spar = new ArrayList<>();
         for (int i = 0; i < 4; i++){
-            Terning t =  (i % 2 == 0) ? new Terning(Symboler.EnumSymboler.LØVE) : new Terning(Symboler.EnumSymboler.HVAL);
+            Terning t =  (i % 2 == 0) ? new Terning(Symboler.EnumSymboler.LOEVE) : new Terning(Symboler.EnumSymboler.HVAL);
             spar.add(t);
         }
         kopp.setSpareTerninger(spar);
@@ -98,7 +98,7 @@ public class EnhetsTester {
     public void testHus(){
         ArrayList<Terning> spar = new ArrayList<>();
         for (int i = 0; i < 5; i++){
-            Terning t =  (i % 2 == 0) ? new Terning(Symboler.EnumSymboler.LØVE) : new Terning(Symboler.EnumSymboler.HVAL);
+            Terning t =  (i % 2 == 0) ? new Terning(Symboler.EnumSymboler.LOEVE) : new Terning(Symboler.EnumSymboler.HVAL);
             spar.add(t);
         }
         kopp.setSpareTerninger(spar);
@@ -132,7 +132,7 @@ public class EnhetsTester {
     public void testYatzoo(){
         ArrayList<Terning> spar = new ArrayList<>();
         for (int i = 0; i < 5; i++){
-            spar.add(new Terning(Symboler.EnumSymboler.LØVE));
+            spar.add(new Terning(Symboler.EnumSymboler.LOEVE));
         }
         kopp.setSpareTerninger(spar);
         assertEquals(10, GiPoeng.giPoeng(12, kopp));
@@ -175,7 +175,7 @@ public class EnhetsTester {
                 symbol == Symboler.EnumSymboler.GRIS ||
                 symbol == Symboler.EnumSymboler.PANDA ||
                 symbol == Symboler.EnumSymboler.ELEFANT ||
-                symbol == Symboler.EnumSymboler.LØVE ||
+                symbol == Symboler.EnumSymboler.LOEVE ||
                 symbol == Symboler.EnumSymboler.SLANGE);
     }
 }

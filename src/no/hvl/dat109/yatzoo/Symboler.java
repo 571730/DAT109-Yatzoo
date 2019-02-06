@@ -5,7 +5,7 @@ package no.hvl.dat109.yatzoo;
  */
 public class Symboler {
     public enum EnumSymboler{
-        LØVE,
+        LOEVE,
         ELEFANT,
         HVAL,
         SLANGE,
@@ -20,7 +20,7 @@ public class Symboler {
      */
     public static EnumSymboler tallTilSymbol(int tall){
         if (tall == 1){
-            return EnumSymboler.LØVE;
+            return EnumSymboler.LOEVE;
         } else if (tall == 2){
             return EnumSymboler.SLANGE;
         } else if (tall == 3) {
